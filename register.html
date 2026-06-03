@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <a href="register.html">Register</a>
-    <title>Register - WC Traders</title>
+    <title>WC Traders Registration</title>
+
+    <style>
+        body {
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        input, select {
+            font-size: 22px;
+            padding: 10px;
+            width: 300px;
+        }
+
+        button {
+            font-size: 24px;
+            padding: 12px 25px;
+        }
+    </style>
 </head>
-body {
-    font-size: 22px;
-}
-</style>
 
-<h1>Forex Mentorship Registration</h1>
+<body>
 
-<form>
-    <label>Full Name:</label><br>
-    <input type="text" name="fullname"><br><br>
+    <h1>WC Traders Registration</h1>
 
-    <label>Email:</label><br>
-    <input type="email" name="email"><br><br>
+    <form>
+        <p>Full Name</p>
+        <input type="text" required>
 
-    <label>Phone Number:</label><br>
-    <input type="tel" name="phone"><br><br>
+        <p>Email</p>
+        <input type="email" required>
 
-    <label>Experience Level:</label><br>
-    <select name="experience">
-        <option>Beginner</option>
-        <option>Intermediate</option>
-        <option>Advanced</option>
-    </select><br><br>
-<h2>Registration Fee</h2>
+        <p>Phone Number</p>
+        <input type="tel" required>
 
-<p>
-To complete your registration for forex mentorship, please send
-<strong>$35 USD</strong> to the contact below.
-</p>
+        <p>Experience Level</p>
+        <select>
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option>Advanced</option>
+        </select>
 
-<p>
-Contact: +254141711482
-</p>
+        <br><br>
 
-<p>
-After payment, send your payment confirmation via WhatsApp for verification.
-</p>
-    <input type="submit" value="Register">
-</form>
+        <button type="submit">Register</button>
+    </form>
 
-<br>
-<a href="index.html">Home</a>
+    <h2>Registration Fee</h2>
+
+    <p>
+        To complete your registration, send
+        <strong>$35 USD</strong> to:
+    </p>
+
+    <p><strong>+254 141 711 482</strong></p>
+
+    <p>
+        After payment, send the payment confirmation through WhatsApp for verification and activation.
+    </p>
+
+    <br>
+
+    <a href="index.html">Return Home</a>
 
 </body>
 </html>
